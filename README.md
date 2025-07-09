@@ -80,6 +80,7 @@ A powerful multi-agent setup built with CrewAI to simplify and automate OSINT (O
 - Python 3.8+
 - CrewAI framework
 - Exa API key for search capabilities
+- OpenAI API key for agents
 - IPython for report display
 
 ## 🛠️ Installation
@@ -99,6 +100,7 @@ pip install crewai exa-py ipython
 ```bash
 # Create a .env file and add your API keys
 echo "EXA_API_KEY=your_exa_api_key_here" > .env
+echo "OPENAI_API_KEY=your_openai_api_key_here" > .env
 ```
 
 ## 🚀 Usage
@@ -141,6 +143,7 @@ Create a `.env` file in the project root:
 
 ```env
 EXA_API_KEY=your_exa_api_key_here
+OPENAI_API_KEY=your_openai_api_key
 ```
 
 ### Agent Customization
